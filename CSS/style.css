@@ -1,0 +1,439 @@
+@font-face {
+    font-family: Mono-Space;
+    src: url(/fonts/SpaceMono-Regular.ttf);
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Mono-Space;
+    scroll-behavior: smooth;
+}
+
+.nav-menu li, a{
+    font-family: Mono-Space;
+    font-size: 1.3vw;
+    color: rgb(184, 184, 184);
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background-color: black;
+}
+
+.logo{
+    font-family: Mono-Space;
+    font-size: 1.9em;
+    font-weight: bolder;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all 0.4s ease 0s;
+}
+
+.logo:hover{
+    transform: skew(2deg, 2deg);
+    text-decoration: underline rgb(0, 255, 102);
+}
+
+.nav-menu{
+    list-style: none;
+}
+
+.nav-menu li{
+    border-left: solid rgb(29, 29, 29) 1px;
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+.nav-menu li a{
+    position: relative;
+    top: 0;
+    transition: all 0.4s ease 0s;
+    transition: top ease 0.4s;
+}
+
+.nav-menu li a:hover{
+    color: rgb(0, 255, 102);
+    text-decoration: underline;
+    top: -3px;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background: rgb(29, 29, 29);
+}
+
+
+/**                 SPLITTER                **/
+
+
+h1{
+    font-size: 3.4rem;
+    font-family: Mono-Space;
+    padding-top: 10%;
+    font-weight: bold;
+    transition: all 1s ease 0s;
+}
+
+h1 span{
+    transition: color 0.4s ease 0s;
+    white-space: nowrap;
+
+}
+
+h1 span:hover{
+    background-color: rgb(0, 255, 102);
+    color: rgb(0, 0, 0);
+}
+
+.intro{
+    padding-left: 6%;
+    padding-top: -20%;
+}
+
+.about{
+    font-size: 1.9rem;
+    font-family: Mono-Space;
+    transition: all 1s ease 0s;
+    color: rgb(97, 97, 97);
+}
+
+.about i{
+    color: rgb(97, 97, 97);
+}
+
+.instagram{
+    width: 22px;
+    background: transparent;
+}
+.twitter{
+    width: 22px;
+    background: transparent;
+}
+.behance{
+    width: 22px;
+    background: transparent;
+}
+
+.socials{
+    transition: all 1s ease 0s;
+    cursor: pointer;
+}
+
+.socials li{
+    display: inline-block;
+    padding-top: 12px;
+    padding-left: 9px;
+    filter: opacity(75%);
+}
+
+.cta {
+    background: none;
+    border: rgb(0, 255, 102) 2px solid;
+    border-radius: 12px;
+    color: rgb(0, 255, 102);
+    padding: 1% 1.5%;
+    transition: all 0.4s ease 0s;
+    font-size: 1.4em;
+}
+
+.cta:hover{
+    color: black;
+    background-color: rgb(0, 255, 102);
+    text-decoration: dashed 3px underline;
+}
+
+/**                 SPLITTER                **/
+
+.Projets{
+    padding-left: 6%;
+}
+
+.Projets h1{
+    font-size: 3vw;
+    color: rgb(0, 255, 102);
+    text-decoration: solid rgb(0, 113, 45) underline;
+}
+
+.Projets p{
+    font-size: 2vw;
+    color: rgb(97, 97, 97);
+}
+
+.pics1{
+    padding-top: 3%;
+}
+
+.img1{
+    width: 35%;
+    padding-top: 10px;
+    border-radius: 23px;
+    transition: all 0.7s ease 0s;
+    background: transparent;
+}
+
+.img1:hover{
+    transform: skew(1.16deg, 1.16deg);
+    filter: saturate(0%), brightness(30%);
+}
+
+.img2{
+    width: 35%;
+    padding-top: 10px;
+    border-radius: 23px;
+    transition: all 0.7s ease 0s;
+    background: transparent;
+}
+
+.img2:hover{
+    transform: scale(1.103);
+}
+
+
+.clotheslogo
+{
+    transition: all 0.7s ease 0s;
+    background: transparent;
+    padding-top: 30px;
+    width: 9%;
+}
+
+.clotheslogo:hover
+{
+    transform: scale(1.2);
+}
+
+footer{
+    display: flex;
+    padding: 0.5vw;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ footer img{
+     width: 2.4vw;
+     border-left: solid 1px rgb(55, 55, 55);
+     padding-left: 10px;
+ }
+
+ .p3{
+    color: rgb(55, 55, 55);
+    font-size: 1.2vw;
+ }
+
+ /**                     SPLITTER                    **/
+
+ .skills{
+    font-size: 3vw;
+ }
+
+.skills-bar{
+    width: 40vw;
+    background: rgb(0, 0, 0);
+    margin: auto;
+    border-radius: 10px;
+    padding: 15px 30px;
+}
+
+.skills-bar .bar{
+    margin: 20px 0;
+}
+
+.skills-bar .bar:first-child{
+    margin-top: 0px;
+}
+
+.skills-bar .bar .info {
+    margin-bottom: 5px;
+}
+
+.skills-bar .bar .info span{
+   font-size: 1.1em;
+   font-weight: 500;
+   background-color: rgb(0, 0, 0);
+   color: white;
+}
+
+.skills-bar .bar .info{
+    background-color: rgb(0, 0, 0);
+}
+
+.skills-bar .bar .progress-line{
+    position: relative;
+    height: 1.3vw;
+    width: 100%;
+    border-radius: 10px;
+    background: #2b2b2b;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+.bar .progress-line span{
+    height: 100%;
+    width: 80%;
+    background: rgb(0, 255, 102);
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: left;
+    border-radius: 10px;
+    animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+.bar .progress-line span{
+    height: 100%;
+    width: 80%;
+    background: rgb(0, 255, 102);
+    position: absolute;
+    transform: scaleX(0);
+    border-radius: 10px;
+}
+
+@keyframes animate {
+    100%{
+        transform: scaleX(1);
+    }
+}
+
+.bar .progress-line.html span{
+    width: 30%;
+}
+
+.bar .progress-line.css span{
+    width: 30%;
+}
+
+.bar .progress-line.js span{
+    width: 30%;
+}
+
+.bar .progress-line.sql span{
+    width: 30%;
+}
+
+.bar .progress-line.c span{
+    width: 30%;
+}
+
+.bar .progress-line span::before{
+    position: absolute;
+    content: "";
+    right: 0;
+    top: -10px;
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: rgb(0, 0, 0);
+    opacity: 0;
+    animation: showText2 0.5s 1.5s linear forwards;
+}
+
+@keyframes showText2{
+    100%{
+        opacity: 1;
+    }
+}
+
+.bar .progress-line span::after{
+    position: absolute;
+    content: "80%";
+    right: 0;
+    top: -28px;
+    font-size: 12px;
+    font-weight: 500;
+    background: #000;
+    padding: 1px 8px;
+    border-radius: 3px;
+}
+
+.bar .progress-line.html span::after{
+    content: "30%";
+}
+
+.bar .progress-line.css span::after{
+    content: "30%";
+}
+
+.bar .progress-line.js span::after{
+    content: "30%";
+}
+
+.bar .progress-line.sql span::after{
+    content: "30%";
+}
+
+.bar .progress-line.c span::after{
+    content: "30%";
+}
+
+.skills{
+    padding-left: 6%;
+    font-size: 3vw;
+    color: rgb(0, 255, 102);
+    text-decoration: solid rgb(0, 113, 45) underline;
+}
+
+/**                 splitter                **/
+
+.h2{
+    font-size: 3vw;
+    padding-left: 6%;
+    color: rgb(0, 255, 102);
+    text-decoration: solid rgb(0, 113, 45) underline;
+}
+
+.contact{
+    width: 500px;
+    background-color: #000;
+    text-align: left;
+    justify-content: center;
+}
+
+.input-field{
+    width: 32vw;
+    height: 3.5vw;
+    font-size: large;
+    margin-top: 1.2vw;
+    padding-left: 10px;
+    background: none;
+    padding-right: 10px;
+    border: 1px solid rgb(78, 78, 78);
+    border-radius: 14px;
+    outline: none;
+}
+
+.textarea-field{
+    height: 6.5vw;
+    padding-top: 10px;
+}
+
+.btn{
+    margin-top: 1.2vw;
+    background: none;
+    cursor: pointer;
+    border: rgb(0, 255, 102) 2px solid;
+    border-radius: 12px;
+    color: rgb(0, 255, 102);
+    padding: 0.4vw 0.9vw;
+    transition: all 0.4s ease 0s;
+    font-size: 1.2em;
+}
+
+.btn:hover{
+    color: black;
+    background-color: rgb(0, 255, 102);
+    text-decoration: dashed 3px underline;
+}
