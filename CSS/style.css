@@ -1,7 +1,9 @@
 @font-face {
     font-family: Mono-Space;
-    src: url(./fonts/SpaceMono-Regular.ttf);
+    src: url(/fonts/SpaceMono-Regular.ttf);
 }
+
+
 
 body{
     background-color: rgb(0, 0, 0);
